@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(240, 247, 244);
+}
+ main {
+    background-color: rgb(240, 247, 244);
+        width: 70%;
+        margin-left: 100px;
+ }
+
+fieldset {
+    width: 100%;
+    min-height: 400px;
+    border-radius: ipx solid black;
+}
+input[type="email"], input[type="text"] {
+    width: 100%;
+}
+.btn {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+}
