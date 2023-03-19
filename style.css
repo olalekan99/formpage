@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -12,12 +13,12 @@ body {
 }
 
 main {
-    width: 70%;
-    /* margin-left: 100px; */
+    width: 100%;
 }
 main>h1 {
     color: aliceblue;
     font-size: 32px;
+    font-weight: 800;
 }
 main>h2 {
     color: aliceblue;
@@ -37,17 +38,24 @@ label {
 
 input[type="email"],
 input[type="text"] {
-    width: 100%;
+    width: 70%;
+    margin: 6px;
     padding: 6px;
+
 }
 
 .btn {
     padding: 8px;
     cursor: pointer;
-    border-radius: 5px;
-    color: black;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
 }
+.btn:hover {
+    background-color: black;
+    color: white;
 
+}
 
 
 
